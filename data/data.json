@@ -1,0 +1,12 @@
+[
+    {"rotonditaFaccia": 10, "dimensioneNaso": 1, "dimensioneOcchi": 5, "dimensioneBocca": 10},
+    {"rotonditaFaccia": 7, "dimensioneNaso": 5, "dimensioneOcchi": 2, "dimensioneBocca": 1},
+    {"rotonditaFaccia": 5, "dimensioneNaso": 1, "dimensioneOcchi": 3, "dimensioneBocca": 4},
+    {"rotonditaFaccia": 9, "dimensioneNaso": 4, "dimensioneOcchi": 1, "dimensioneBocca": 2},
+    {"rotonditaFaccia": 8, "dimensioneNaso": 5, "dimensioneOcchi": 2, "dimensioneBocca": 3},
+    {"rotonditaFaccia": 6, "dimensioneNaso": 1, "dimensioneOcchi": 3, "dimensioneBocca": 1},
+    {"rotonditaFaccia": 5, "dimensioneNaso": 1, "dimensioneOcchi": 4, "dimensioneBocca": 7},
+    {"rotonditaFaccia": 10, "dimensioneNaso": 3, "dimensioneOcchi": 2, "dimensioneBocca": 3},
+    {"rotonditaFaccia": 9, "dimensioneNaso": 8, "dimensioneOcchi": 3, "dimensioneBocca": 1},
+    {"rotonditaFaccia": 6, "dimensioneNaso": 1, "dimensioneOcchi": 1, "dimensioneBocca": 8}
+]

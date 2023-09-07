@@ -1,0 +1,37 @@
+h1 {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    color: #990000;
+    margin-top: 800px;
+}
+
+h2 {
+    font-family: "Arial", sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+body {
+        background-color: #f2f2f2;
+    }
+
+.face {
+    fill: #ffcc99;
+    stroke: #663300;
+}
+
+.eye {
+    fill: #663300;
+}
+
+.nose {
+    fill: #cc6600;
+}
+
+.mouth {
+    fill: #990000;
+}
+
+.face:hover, .eye:hover, .nose:hover, .mouth:hover {
+cursor: pointer;
+}
