@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Infovis Project 1</title>
+    <title>Top Giochi da tavolo</title>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="utf-8" http-equiv="encoding">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script type="text/javascript" src="lib/d3.min.js"></script>
-	<script type="text/javascript" src="js/faces.js"></script>
-
+	<script type="text/javascript" src="js/script.js" defer></script>
 </head>
 
 <body>
+    <div id="headers">
+      <div class="column">Nome</div>
+      <div class="column">Anno</div>
+      <div class="column">Giocatori</div>
+      <div class="column">Tempo</div>
+      <div class="column">Età Minima</div>
+      <div class="column">Complessità</div>
+    </div>
 
-	<h1>Benvenuto in Face Swapper!</h1>
-	<h2>Premi una caratteristica del viso per ordinare le facce, in ordine crescente, in base ad essa!</h2>
-	<h2>Se non vedi tutte le facce, usa lo slide in basso per scorrere.</h2>
+	<div id="table"></div>
 
+	<button id="orderByTime">Tempo di gioco</button>
+	<button id="orderByPlayers">Numero giocatori</button>
 </body>
-
 </html>

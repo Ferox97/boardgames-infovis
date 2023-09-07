@@ -1,12 +1,43 @@
 [
-    {"rotonditaFaccia": 10, "dimensioneNaso": 1, "dimensioneOcchi": 5, "dimensioneBocca": 10},
-    {"rotonditaFaccia": 7, "dimensioneNaso": 5, "dimensioneOcchi": 2, "dimensioneBocca": 1},
-    {"rotonditaFaccia": 5, "dimensioneNaso": 1, "dimensioneOcchi": 3, "dimensioneBocca": 4},
-    {"rotonditaFaccia": 9, "dimensioneNaso": 4, "dimensioneOcchi": 1, "dimensioneBocca": 2},
-    {"rotonditaFaccia": 8, "dimensioneNaso": 5, "dimensioneOcchi": 2, "dimensioneBocca": 3},
-    {"rotonditaFaccia": 6, "dimensioneNaso": 1, "dimensioneOcchi": 3, "dimensioneBocca": 1},
-    {"rotonditaFaccia": 5, "dimensioneNaso": 1, "dimensioneOcchi": 4, "dimensioneBocca": 7},
-    {"rotonditaFaccia": 10, "dimensioneNaso": 3, "dimensioneOcchi": 2, "dimensioneBocca": 3},
-    {"rotonditaFaccia": 9, "dimensioneNaso": 8, "dimensioneOcchi": 3, "dimensioneBocca": 1},
-    {"rotonditaFaccia": 6, "dimensioneNaso": 1, "dimensioneOcchi": 1, "dimensioneBocca": 8}
-]
+    {
+      "nome": "Gioco 1",
+      "anno": 2010,
+      "giocatori": 2,
+      "tempo": 30,
+      "eta": 7,
+      "complessita": 2.5
+    },
+    {
+      "nome": "Gioco 2",
+      "anno": 2015,
+      "giocatori": 4,
+      "tempo": 45,
+      "eta": 12,
+      "complessita": 3.7
+    },
+    {
+      "nome": "Gioco 3",
+      "anno": 2020,
+      "giocatori": 3,
+      "tempo": 60,
+      "eta": 10,
+      "complessita": 4.2
+    },
+    {
+      "nome": "Gioco 4",
+      "anno": 2005,
+      "giocatori": 5,
+      "tempo": 90,
+      "eta": 8,
+      "complessita": 1.9
+    },
+    {
+      "nome": "Gioco 5",
+      "anno": 2018,
+      "giocatori": 4,
+      "tempo": 120,
+      "eta": 14,
+      "complessita": 5.0
+    }
+  ]
+  
