@@ -1,62 +1,102 @@
 [
   {
-      "nome": "Gioco 1",
-      "anno": 2010,
-      "giocatoriMin": 2,
-      "giocatoriMax": 4,
-      "tempoMin": 20,
-      "tempoMax": 30,
-      "eta": 7,
-      "complessita": 2.5
-  },
-  {
-      "nome": "Gioco 2",
-      "anno": 2015,
-      "giocatoriMin": 3,
-      "giocatoriMax": 4,
-      "tempoMin": 40,
-      "tempoMax": 45,
-      "eta": 12,
-      "complessita": 3.7
-  },
-  {
-      "nome": "Gioco 3",
-      "anno": 2020,
-      "giocatoriMin": 2,
-      "giocatoriMax": 3,
-      "tempoMin": 50,
-      "tempoMax": 60,
-      "eta": 10,
-      "complessita": 4.2
-  },
-  {
-      "nome": "Gioco 4",
-      "anno": 2005,
-      "giocatoriMin": 4,
-      "giocatoriMax": 5,
-      "tempoMin": 80,
-      "tempoMax": 90,
-      "eta": 8,
-      "complessita": 1.9
-  },
-  {
-      "nome": "Gioco 5",
+      "nome": "Brass Birmingham",
       "anno": 2018,
-      "giocatoriMin": 3,
+      "giocatoriMin": 2,
       "giocatoriMax": 4,
-      "tempoMin": 110,
+      "tempoMin": 60,
       "tempoMax": 120,
       "eta": 14,
-      "complessita": 5.0
+      "complessita": 3.89
   },
   {
-      "nome": "Gioco 6",
-      "anno": 2011,
+      "nome": "Pandemic Legacy Season 1",
+      "anno": 2015,
       "giocatoriMin": 2,
-      "giocatoriMax": 3,
-      "tempoMin": 100,
-      "tempoMax": 110,
+      "giocatoriMax": 4,
+      "tempoMin": 60,
+      "tempoMax": 60,
+      "eta": 13,
+      "complessita": 2.83
+  },
+  {
+      "nome": "Gloomhaven",
+      "anno": 2017,
+      "giocatoriMin": 1,
+      "giocatoriMax": 4,
+      "tempoMin": 60,
+      "tempoMax": 120,
       "eta": 14,
-      "complessita": 5.0
-  }
+      "complessita": 3.90
+  },
+  {
+      "nome": "Ark Nova",
+      "anno": 2021,
+      "giocatoriMin": 1,
+      "giocatoriMax": 4,
+      "tempoMin": 90,
+      "tempoMax": 150,
+      "eta": 14,
+      "complessita": 3.73
+  },
+  {
+      "nome": "Twilight Imperium Fourth Edition",
+      "anno": 2017,
+      "giocatoriMin": 3,
+      "giocatoriMax": 6,
+      "tempoMin": 240,
+      "tempoMax": 480,
+      "eta": 14,
+      "complessita": 4.31
+  },
+  {
+      "nome": "Terraforming Mars",
+      "anno": 2016,
+      "giocatoriMin": 1,
+      "giocatoriMax": 5,
+      "tempoMin": 120,
+      "tempoMax": 120,
+      "eta": 12,
+      "complessita": 3.26
+  },
+  {
+    "nome": "Gloomhaven Jaws of the Lion",
+    "anno": 2020,
+    "giocatoriMin": 1,
+    "giocatoriMax": 4,
+    "tempoMin": 30,
+    "tempoMax": 120,
+    "eta": 14,
+    "complessita": 3.63
+},
+{
+  "nome": "Dune Imperium",
+  "anno": 2020,
+  "giocatoriMin": 1,
+  "giocatoriMax": 4,
+  "tempoMin": 60,
+  "tempoMax": 120,
+  "eta": 14,
+  "complessita": 3.03
+},
+{
+  "nome": "War of the Ring Second Edition",
+  "anno": 2011,
+  "giocatoriMin": 2,
+  "giocatoriMax": 4,
+  "tempoMin": 150,
+  "tempoMax": 180,
+  "eta": 13,
+  "complessita": 4.20
+},
+{
+  "nome": "Star Wars Rebellion",
+  "anno": 2016,
+  "giocatoriMin": 2,
+  "giocatoriMax": 4,
+  "tempoMin": 180,
+  "tempoMax": 240,
+  "eta": 14,
+  "complessita": 3.74
+}
 ]
