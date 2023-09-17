@@ -1,43 +1,62 @@
 [
-    {
+  {
       "nome": "Gioco 1",
       "anno": 2010,
-      "giocatori": 2,
-      "tempo": 30,
+      "giocatoriMin": 2,
+      "giocatoriMax": 4,
+      "tempoMin": 20,
+      "tempoMax": 30,
       "eta": 7,
       "complessita": 2.5
-    },
-    {
+  },
+  {
       "nome": "Gioco 2",
       "anno": 2015,
-      "giocatori": 4,
-      "tempo": 45,
+      "giocatoriMin": 3,
+      "giocatoriMax": 4,
+      "tempoMin": 40,
+      "tempoMax": 45,
       "eta": 12,
       "complessita": 3.7
-    },
-    {
+  },
+  {
       "nome": "Gioco 3",
       "anno": 2020,
-      "giocatori": 3,
-      "tempo": 60,
+      "giocatoriMin": 2,
+      "giocatoriMax": 3,
+      "tempoMin": 50,
+      "tempoMax": 60,
       "eta": 10,
       "complessita": 4.2
-    },
-    {
+  },
+  {
       "nome": "Gioco 4",
       "anno": 2005,
-      "giocatori": 5,
-      "tempo": 90,
+      "giocatoriMin": 4,
+      "giocatoriMax": 5,
+      "tempoMin": 80,
+      "tempoMax": 90,
       "eta": 8,
       "complessita": 1.9
-    },
-    {
+  },
+  {
       "nome": "Gioco 5",
       "anno": 2018,
-      "giocatori": 4,
-      "tempo": 120,
+      "giocatoriMin": 3,
+      "giocatoriMax": 4,
+      "tempoMin": 110,
+      "tempoMax": 120,
       "eta": 14,
       "complessita": 5.0
-    }
-  ]
-  
+  },
+  {
+      "nome": "Gioco 6",
+      "anno": 2011,
+      "giocatoriMin": 2,
+      "giocatoriMax": 3,
+      "tempoMin": 100,
+      "tempoMax": 110,
+      "eta": 14,
+      "complessita": 5.0
+  }
+]

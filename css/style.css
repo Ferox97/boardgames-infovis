@@ -17,23 +17,22 @@ h2 {
 
 body {
     background-color: #f2f2f2;
-    padding: 0 20px; /* Questo crea il margine uniforme intorno alla pagina */
+    padding: 0 20px;
 }
 
 #headers {
     display: flex;
     justify-content: space-between;
-    border: 1px solid black; /* Questo riaggiungerà il bordo inferiore */
-    padding: 10px 0; 
-    margin-bottom: 10px;
+    border: 1px solid black;
+    padding: 10px 0;
+    margin-bottom: 0px;
     margin-top: 15px;
-  }
-  
+}
 
 #table {
     position: relative;
     max-width: 100%;
-    width: 100%; /* Questo permette alla tabella di allinearsi correttamente con le intestazioni */
+    width: 100%;
 }
 
 .row {
@@ -42,15 +41,40 @@ body {
     display: flex;
     justify-content: space-between;
     border: 1px solid black;
-    padding: 10px 0; 
-    margin-top: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    align-items: center;
 }
 
 .column {
-    width: 16.66%;
+    width: 14.28%;
     text-align: center;
+}
+
+#table img {
+    width: 80px;
+    height: 80px;
 }
 
 #table + button {
     margin-top: 20px;
+}
+
+#filters > div {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+#filters > div > * {
+    margin-right: 10px;
+}
+
+#filters > div > :last-child {
+    margin-right: 0;
+}
+
+.slider {
+    width: 100px;
+    margin: 0 10px;
 }

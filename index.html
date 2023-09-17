@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Top Giochi da tavolo</title>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <meta content="utf-8" http-equiv="encoding">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script type="text/javascript" src="lib/d3.min.js"></script>
-	<script type="text/javascript" src="js/script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="lib/d3.min.js"></script>
+    <script type="text/javascript" src="js/script.js" defer></script>
 </head>
 
 <body>
-    <div id="headers">
-      <div class="column">Nome</div>
-      <div class="column">Anno</div>
-      <div class="column">Giocatori</div>
-      <div class="column">Tempo</div>
-      <div class="column">Età Minima</div>
-      <div class="column">Complessità</div>
+
+    <div id="yearFilter">
+        <label for="yearDropdownMin">Anno minimo:</label>
+        <select id="yearDropdownMin"></select>
+        
+        <label for="yearDropdownMax">Anno massimo:</label>
+        <select id="yearDropdownMax"></select>
+        
+    </div>
+    <br> 
+    <div id="playerFilter">
+        <label for="playerDropdownMin">Giocatori minimo:</label>
+        <select id="playerDropdownMin"></select>
+        
+        <label for="playerDropdownMax">Giocatori massimo:</label>
+        <select id="playerDropdownMax"></select>
+        
     </div>
 
-	<div id="table"></div>
+    <div id="headers">
+        <div class="column">Locandina</div>
+        <div class="column">Nome</div>
+        <div class="column">Anno</div>
+        <div class="column">Giocatori</div>
+        <div class="column">Durata partita (minuti)</div>
+        <div class="column">Età Minima</div>
+        <div class="column">Complessità</div>
+    </div>
 
-	<button id="orderByTime">Tempo di gioco</button>
-	<button id="orderByPlayers">Numero giocatori</button>
+    <div id="table"></div>
+
 </body>
+
 </html>
