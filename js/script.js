@@ -12,23 +12,24 @@ d3.json('data/data.json').then(initialData => {
   
   drawTable(data);
 
-  d3.select("#yearDropdownMin").on("change", function() {
-      yearMin = +this.value;
-      if (yearMin >= yearMax) {
-          yearMax = yearMin + 1;
-          d3.select("#yearDropdownMax").property("value", yearMax);
-      }
-      filterData();
-  });
+d3.select("#yearDropdownMin").on("change", function() {
+    yearMin = +this.value;
+    if (yearMin > yearMax) {
+        yearMax = yearMin;
+        d3.select("#yearDropdownMax").property("value", yearMax);
+    }
+    filterData();
+});
 
-  d3.select("#yearDropdownMax").on("change", function() {
-      yearMax = +this.value;
-      if (yearMax <= yearMin) {
-          yearMin = yearMax - 1;
-          d3.select("#yearDropdownMin").property("value", yearMin);
-      }
-      filterData();
-  });
+d3.select("#yearDropdownMax").on("change", function() {
+    yearMax = +this.value;
+    if (yearMax < yearMin) {
+        yearMin = yearMax;
+        d3.select("#yearDropdownMin").property("value", yearMin);
+    }
+    filterData();
+});
+
 
   d3.select("#playerDropdownMin").on("change", function() {
       playerMin = +this.value;
