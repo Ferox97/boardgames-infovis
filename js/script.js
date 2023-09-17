@@ -126,3 +126,21 @@ d3.select("#yearDropdownMax").on("change", function() {
       d3.select("#table").style("height", `${data.length * totalHeight}px`);
   }
 });
+
+// Mostra il pop-up quando si fa clic su un'immagine
+d3.select("#table").on("click", function(event) {
+  const target = event.target;
+  if (target.tagName === 'IMG') {
+      const imageUrl = target.getAttribute('src');
+      d3.select("#popupImage").attr("src", imageUrl);
+      d3.select("#imagePopup").style("display", "flex");
+  }
+});
+
+// Nascondi il pop-up quando si fa clic sullo sfondo
+d3.select("#imagePopup").on("click", function(event) {
+  if (event.target === this) {
+      d3.select("#imagePopup").style("display", "none");
+  }
+});
+
