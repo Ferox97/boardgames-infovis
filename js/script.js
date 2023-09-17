@@ -110,7 +110,7 @@ d3.select("#yearDropdownMax").on("change", function() {
               d.anno,
               d.descrizione,  // Aggiunta della colonna "Descrizione"
               `${d.giocatoriMin} - ${d.giocatoriMax}`,
-              `${d.tempoMin} - ${d.tempoMax}`,
+              d.tempoMin === d.tempoMax ? `${d.tempoMin}` : `${d.tempoMin} - ${d.tempoMax}`,
               d.eta,
               d.complessita
           ])
