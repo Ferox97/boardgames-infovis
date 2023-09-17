@@ -2,6 +2,7 @@
   {
       "nome": "Brass Birmingham",
       "anno": 2018,
+      "descrizione": "Build networks, grow industries, and navigate the world of the Industrial Revolution.",
       "giocatoriMin": 2,
       "giocatoriMax": 4,
       "tempoMin": 60,
@@ -12,6 +13,7 @@
   {
       "nome": "Pandemic Legacy Season 1",
       "anno": 2015,
+      "descrizione": "Mutating diseases are spreading around the world - can your team save humanity?",
       "giocatoriMin": 2,
       "giocatoriMax": 4,
       "tempoMin": 60,
@@ -22,6 +24,7 @@
   {
       "nome": "Gloomhaven",
       "anno": 2017,
+      "descrizione": "Vanquish monsters with strategic cardplay. Fulfill your quest to leave your legacy!",
       "giocatoriMin": 1,
       "giocatoriMax": 4,
       "tempoMin": 60,
@@ -32,6 +35,7 @@
   {
       "nome": "Ark Nova",
       "anno": 2021,
+      "descrizione": "Plan and build a modern, scientifically managed zoo to support conservation projects.",
       "giocatoriMin": 1,
       "giocatoriMax": 4,
       "tempoMin": 90,
@@ -42,6 +46,7 @@
   {
       "nome": "Twilight Imperium Fourth Edition",
       "anno": 2017,
+      "descrizione": "Build an intergalactic empire through trade, research, conquest and grand politics.",
       "giocatoriMin": 3,
       "giocatoriMax": 6,
       "tempoMin": 240,
@@ -52,6 +57,7 @@
   {
       "nome": "Terraforming Mars",
       "anno": 2016,
+      "descrizione": "Compete with rival CEOs to make Mars habitable and build your corporate empire.",
       "giocatoriMin": 1,
       "giocatoriMax": 5,
       "tempoMin": 120,
@@ -62,6 +68,7 @@
   {
     "nome": "Gloomhaven Jaws of the Lion",
     "anno": 2020,
+    "descrizione": "Vanquish monsters with strategic cardplay in a 25-scenario Gloomhaven campaign.",
     "giocatoriMin": 1,
     "giocatoriMax": 4,
     "tempoMin": 30,
@@ -72,6 +79,7 @@
 {
   "nome": "Dune Imperium",
   "anno": 2020,
+  "descrizione": "Influence, intrigue, and combat in the universe of Dune.",
   "giocatoriMin": 1,
   "giocatoriMax": 4,
   "tempoMin": 60,
@@ -82,6 +90,7 @@
 {
   "nome": "War of the Ring Second Edition",
   "anno": 2011,
+  "descrizione": "The Fellowship and the Free Peoples clash with Sauron over the fate of Middle-Earth.",
   "giocatoriMin": 2,
   "giocatoriMax": 4,
   "tempoMin": 150,
@@ -92,6 +101,7 @@
 {
   "nome": "Star Wars Rebellion",
   "anno": 2016,
+  "descrizione": "Strike from your hidden base as the Rebels—or find and destroy it as the Empire.",
   "giocatoriMin": 2,
   "giocatoriMax": 4,
   "tempoMin": 180,

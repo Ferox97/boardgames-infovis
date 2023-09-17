@@ -107,6 +107,7 @@ d3.json('data/data.json').then(initialData => {
               { type: 'image', value: `./Immagini/${d.nome}.webp` },
               d.nome,
               d.anno,
+              d.descrizione,  // Aggiunta della colonna "Descrizione"
               `${d.giocatoriMin} - ${d.giocatoriMax}`,
               `${d.tempoMin} - ${d.tempoMax}`,
               d.eta,
