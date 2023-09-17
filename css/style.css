@@ -22,6 +22,8 @@ body {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
+    font-family: 'VT323', monospace;
+    font-size: 14px;
 }
 
 
