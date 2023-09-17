@@ -24,6 +24,7 @@ body {
     -ms-user-select: none;
     font-family: 'VT323', monospace;
     font-size: 14px;
+    min-width: 1500px;
 }
 
 
@@ -115,5 +116,10 @@ body {
     border: 3px solid #333;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+html {
+    overflow-x: auto;
+}
+
 
 
