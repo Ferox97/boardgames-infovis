@@ -13,43 +13,79 @@
 
 <body>
 
-    <div id="yearFilter">
-        <label for="yearDropdownMin">Anno minimo:</label>
-        <select id="yearDropdownMin"></select>
-        
-        <label for="yearDropdownMax">Anno massimo:</label>
-        <select id="yearDropdownMax"></select>
-        
-    </div>
-    <br> 
-    <div id="playerFilter">
-        <label for="playerDropdownMin">Giocatori minimo:</label>
-        <select id="playerDropdownMin"></select>
-        
-        <label for="playerDropdownMax">Giocatori massimo:</label>
-        <select id="playerDropdownMax"></select>
-        
-    </div>
+    <div id="mainContent">
+        <!-- Filtri e Grafico -->
+        <div id="filtersAndChart">
+            <!-- Filtri -->
+            <div id="filters">
+                <div id="yearFilter">
+                    <label for="yearDropdownMin">Anno minimo:</label>
+                    <select id="yearDropdownMin"></select>
+                    
+                    <label for="yearDropdownMax">Anno massimo:</label>
+                    <select id="yearDropdownMax"></select>
+                </div>
+                <br> 
+                <div id="playerFilter">
+                    <label for="playerDropdownMin">Giocatori minimo:</label>
+                    <select id="playerDropdownMin"></select>
+                    
+                    <label for="playerDropdownMax">Giocatori massimo:</label>
+                    <select id="playerDropdownMax"></select>
+                </div>
+                
+                <br>
+                <div id="durationFilter">
+                    <label for="durationDropdownMin">Durata minima (minuti):</label>
+                    <select id="durationDropdownMin"></select>
+                    
+                    <label for="durationDropdownMax">Durata massima (minuti):</label>
+                    <select id="durationDropdownMax"></select>
+                </div>
 
-    <div id="headers">
-        <div class="column">Locandina</div>
-        <div class="column">Nome</div>
-        <div class="column">Anno</div>
-        <div class="column">Descrizione</div>
-        <div class="column">Giocatori</div>
-        <div class="column">Durata partita (minuti)</div>
-        <div class="column">Età Minima</div>
-        <div class="column">Complessità</div>
-    </div>
+                <br> 
+                <div id="ageFilter">
+                    <label for="ageDropdownMin">Età minima:</label>
+                    <select id="ageDropdownMin"></select>
+                </div>
 
-    <div id="table"></div>
+                <br>
+                <div id="complexityFilter">
+                    <label for="complexityDropdownMin">Complessità minima:</label>
+                    <select id="complexityDropdownMin"></select>
+                    
+                    <label for="complexityDropdownMax">Complessità massima:</label>
+                    <select id="complexityDropdownMax"></select>
+                </div>
+
+
+            </div>
+
+            <!-- Grafico -->
+            <div id="chart"></div>
+        </div>
+
+        <!-- Tabella -->
+        <div id="tableContent">
+            <div id="headers">
+                <div class="column">Locandina</div>
+                <div class="column">Nome</div>
+                <div class="column">Anno</div>
+                <div class="column">Descrizione</div>
+                <div class="column">Giocatori</div>
+                <div class="column">Durata partita (minuti)</div>
+                <div class="column">Età Minima</div>
+                <div class="column">Complessità</div>
+            </div>
+            <div id="table"></div>
+        </div>
+    </div>
 
     <div id="imagePopup" style="display: none;">
-      <div id="popupContent">
-          <img id="popupImage" src="" alt="Immagine ingrandita">
-      </div>
-  </div>
-  
+        <div id="popupContent">
+            <img id="popupImage" src="" alt="Immagine ingrandita">
+        </div>
+    </div>
 
 </body>
 

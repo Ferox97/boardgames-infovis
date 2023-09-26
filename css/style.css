@@ -122,5 +122,46 @@ html {
     overflow-x: auto;
 }
 
+.bar {
+    fill: #74c476;
+}
+
+.axis--x path {
+    display: none;
+}
+
+.axis line {
+    shape-rendering: crispEdges;
+}
+
+.axis--x .tick line {
+    stroke: #e0e0e0;
+}
+
+#mainContent {
+    display: grid;
+    grid-template-rows: auto 1fr; /* La prima riga per i filtri e il grafico, la seconda riga per la tabella */
+    gap: 10px; /* Spazio tra le righe */
+}
+
+#filtersAndChart {
+    display: flex;
+    justify-content: space-between;
+}
+
+#filters {
+    flex: 1;
+    padding-right: 20px; /* Aggiungi un po' di spazio tra i filtri e il grafico */
+}
+
+#chart {
+    flex: 2; /* Fai in modo che il grafico occupi più spazio rispetto ai filtri */
+}
+
+#tableContent {
+    width: 100%;
+}
+
+
 
 
