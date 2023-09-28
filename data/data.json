@@ -108,5 +108,115 @@
   "tempoMax": 240,
   "eta": 14,
   "complessita": 3.74
+},
+{
+  "nome": "Spirit Island",
+  "anno": 2017,
+  "descrizione": "Island Spirits join forces using elemental powers to defend their home from invaders.",
+  "giocatoriMin": 1,
+  "giocatoriMax": 4,
+  "tempoMin": 90,
+  "tempoMax": 120,
+  "eta": 13,
+  "complessita": 4.06
+},
+{
+  "nome": "Gaia Project",
+  "anno": 2017,
+  "descrizione": "Expand, research, upgrade, and settle the galaxy with one of 14 alien species.",
+  "giocatoriMin": 1,
+  "giocatoriMax": 4,
+  "tempoMin": 60,
+  "tempoMax": 150,
+  "eta": 12,
+  "complessita": 4.40
+},
+{
+  "nome": "Through the Ages - A New Story of Civilization",
+  "anno": 2015,
+  "descrizione": "Rewrite history as you build up your civilization in this epic card drafting game.",
+  "giocatoriMin": 2,
+  "giocatoriMax": 4,
+  "tempoMin": 120,
+  "tempoMax": 120,
+  "eta": 14,
+  "complessita": 4.43
+},
+{
+  "nome": "The Castles of Burgundy",
+  "anno": 2011,
+  "descrizione": "Plan, trade, and build your Burgundian estate to prosperity and prominence.",
+  "giocatoriMin": 2,
+  "giocatoriMax": 4,
+  "tempoMin": 30,
+  "tempoMax": 90,
+  "eta": 12,
+  "complessita": 2.99
+},
+{
+  "nome": "Twilight Struggle",
+  "anno": 2005,
+  "descrizione": "Relive the Cold War and rewrite history in an epic clash between the USA and USSR.",
+  "giocatoriMin": 2,
+  "giocatoriMax": 2,
+  "tempoMin": 120,
+  "tempoMax": 180,
+  "eta": 13,
+  "complessita": 3.60
+},
+{
+  "nome": "Great Western Trail",
+  "anno": 2016,
+  "descrizione": "Use strategic outposts and navigate danger as you herd your cattle to Kansas City.",
+  "giocatoriMin": 2,
+  "giocatoriMax": 4,
+  "tempoMin": 75,
+  "tempoMax": 150,
+  "eta": 12,
+  "complessita": 3.71
+},
+{
+  "nome": "Scythe",
+  "anno": 2016,
+  "descrizione": "Five factions vie for dominance in a war-torn, mech-filled, dieselpunk 1920s Europe.",
+  "giocatoriMin": 1,
+  "giocatoriMax": 5,
+  "tempoMin": 90,
+  "tempoMax": 115,
+  "eta": 14,
+  "complessita": 3.44
+},
+{
+  "nome": "7 Wonders Duel",
+  "anno": 2015,
+  "descrizione": "Science? Military? What will you draft to win this head-to-head version of 7 Wonders?",
+  "giocatoriMin": 2,
+  "giocatoriMax": 2,
+  "tempoMin": 30,
+  "tempoMax": 30,
+  "eta": 10,
+  "complessita": 2.23
+},
+{
+  "nome": "Brass Lancashire",
+  "anno": 2007,
+  "descrizione": "Strike from your hidden base as the Rebels—or find and destroy it as the Empire.",
+  "giocatoriMin": 2,
+  "giocatoriMax": 4,
+  "tempoMin": 60,
+  "tempoMax": 120,
+  "eta": 14,
+  "complessita": 3.86
+},
+{
+  "nome": "Eclipse - Second Dawn for the Galaxy",
+  "anno": 2016,
+  "descrizione": "Strike from your hidden base as the Rebels—or find and destroy it as the Empire.",
+  "giocatoriMin": 2,
+  "giocatoriMax": 6,
+  "tempoMin": 60,
+  "tempoMax": 200,
+  "eta": 14,
+  "complessita": 3.65
 }
 ]
