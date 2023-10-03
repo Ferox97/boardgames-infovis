@@ -151,11 +151,11 @@ html {
 
 #filters {
     flex: 1;
-    padding-right: 20px; /* Aggiungi un po' di spazio tra i filtri e il grafico */
+    padding-right: 20px; 
 }
 
 #chart {
-    flex: 2; /* Fai in modo che il grafico occupi più spazio rispetto ai filtri */
+    flex: 2; 
 }
 
 #tableContent {
